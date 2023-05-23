@@ -129,13 +129,25 @@ body {
 /* --------------------Hero------------------- */
 
 .hero-section {
-  padding-top: 188px;
-  padding-bottom: 188px;
   color: var(--invert-color);
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
 }
 
 .hero-container {
+  height: 600px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 188px;
+  padding-bottom: 188px;
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-size: cover;
+  background-position: center;
   text-align: center;
 }
 
@@ -182,11 +194,32 @@ body {
 .advantages-item {
   flex-basis: calc((100% - 72px) / 4);
 }
+
 .advantages-item:before {
-  content: "";
-  width: 264px;
+  display: block;
+  content: '';
   height: 112px;
-  outline: 1px solid red;
+
+  background-color: var(--light-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 8px;
+}
+
+.icon-antenna:before {
+  background-image: url(../images/antenna.svg);
+}
+
+.icon-clock:before {
+  background-image: url(../images/clock.svg);
+}
+
+.icon-diagram:before {
+  background-image: url(../images/diagram.svg);
+}
+
+.icon-astronaut:before {
+  background-image: url(../images/astronaut.svg);
 }
 
 /* common class for sections */
