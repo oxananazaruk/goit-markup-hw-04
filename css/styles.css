@@ -182,6 +182,12 @@ body {
 .advantages-item {
   flex-basis: calc((100% - 72px) / 4);
 }
+.advantages-item:before {
+  content: "";
+  width: 264px;
+  height: 112px;
+  outline: 1px solid red;
+}
 
 /* common class for sections */
 .section-subtitle {
@@ -333,7 +339,7 @@ body {
   column-gap: 24px;
 }
 
-.examples-item: {
+.examples-item {
   flex-basis: calc((100% - 48px) / 3);
 }
 
