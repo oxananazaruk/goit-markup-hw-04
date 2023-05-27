@@ -389,9 +389,13 @@ body {
 /* Footer */
 .footer-container {
   display: flex;
-  gap: 120px;
   align-items: baseline;
-}
+} 
+
+  .logo-wrapper {
+margin-right: 120px;
+  }
+
 
 .footer {
   padding-top: 100px;
@@ -400,6 +404,7 @@ body {
   background-color: var(--color-primary);
   line-height: 1.5;
   letter-spacing: 0.02em;
+
 }
 
 .logo-footer {
