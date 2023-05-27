@@ -320,6 +320,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+ 
+.tem-soc-link:hover,
+.tem-soc-link:focus {
+  background-color: var(--color-active);
+}
 
 .team-soc-icon {
   width: 16px;
@@ -491,6 +496,15 @@ margin-bottom: 16px;
 
 .content-category {
   color: var(--secondary-color);
+}
+
+.examples-link {
+  display: block;
+}
+
+.examples-link:hover,
+.examples-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .examples-descr {
